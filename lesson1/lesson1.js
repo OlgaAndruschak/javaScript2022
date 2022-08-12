@@ -27,6 +27,7 @@ console.log(third)
 alert('hello')
 // alert('owu')
 document.write('<div>' +one+ '</div>')
+document.write('<div>' +two+ '</div>')
 
 let firstName = "Olga"
 let middleName = "Cute"
@@ -47,3 +48,23 @@ let surname = prompt('як тебе по батькові?')
 console.log(surname)
 let age = prompt('whats your age')
 console.log(age)
+
+let books = [ 'name', 'pages', 'genre', 'author']
+console.log(books)
+
+let book1 = {
+    nameof: 'Jane Eyre',
+    pages: 200,
+    genre: "novel",
+    author: 'Sharlotte Bronte'
+}
+console.log(book1.nameof)
+
+let book2 = {
+    nameof: 'Robinson Cruso',
+    pages: 300,
+    genre: 'novel',
+    author: "Daniel Defo"
+}
+console.log(book2.genre)
+

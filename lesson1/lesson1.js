@@ -49,8 +49,15 @@ console.log(surname)
 let age = prompt('whats your age')
 console.log(age)
 
-let books = [ 'name', 'pages', 'genre', 'author']
-console.log(books)
+let books = [
+    {title: "ghk", pages: 20, genre: "comedy", authors: ["hhk",'hj','hhjl']},
+    {title: "ghk", pages: 200, genre: "drama", authors: ["hhk",'hj','hhjl']},
+    {title: "ghk", pages: 30, genre: "fantasy", authors: ["hhk",'hj','hhjl']}
+]
+console.log(books[0])
+console.log(books[1])
+console.log(books[3])
+
 
 let book1 = {
     nameof: 'Jane Eyre',
@@ -68,3 +75,16 @@ let book2 = {
 }
 console.log(book2.genre)
 
+let book3 = {
+    nameof: "Maygli",
+    pages: 450,
+    genre: "novel"
+}
+
+let book = {
+    nameof: "Cinderella",
+    pages: 50,
+    genre: "fairy tale",
+    author: [ 'Perro', "Verlen", "Grimm"]
+}
+console.log(book.author)
